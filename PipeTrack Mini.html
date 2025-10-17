@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PipeTrack Mini</title>
+</head>
+<body>
+  <h2>Pipeline Runs (Mini)</h2>
+
+  <h3>Active Run</h3>
+  <p>
+    <strong>Status:</strong> ⏳ Running |
+    <strong>Branch:</strong> main |
+    <strong>Commit:</strong> 1e9a7c2 |
+    <strong>Triggered by:</strong> akshat
+  </p>
+  <ol>
+    <li>Checkout — ✅ Passed</li>
+    <li>Build — ✅ Passed</li>
+    <li>Test — ⏳ In Progress</li>
+    <li>Deploy — 🕒 Queued</li>
+    <li>Verify — 🕒 Queued</li>
+  </ol>
+
+  <h3>Recent Runs</h3>
+  <table border="1" cellpadding="6">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Commit</th>
+        <th>Author</th>
+        <th>Stages</th>
+        <th>Duration</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>842</td>
+        <td>1e9a7c2 – align logs</td>
+        <td>akshat</td>
+        <td>Build ✅ · Test ⏳ · Deploy 🕒</td>
+        <td>—</td>
+        <td>⏳ Running</td>
+      </tr>
+      <tr>
+        <td>841</td>
+        <td>8b2f4aa – bump envoy</td>
+        <td>neha</td>
+        <td>Build ✅ · Test ✅ · Deploy ✅ · Verify ✅</td>
+        <td>3m 54s</td>
+        <td>✅ Passed</td>
+      </tr>
+      <tr>
+        <td>840</td>
+        <td>d4c5b10 – fix canary ingress</td>
+        <td>tushar</td>
+        <td>Build ✅ · Test ✅ · Deploy ❌</td>
+        <td>2m 19s</td>
+        <td>❌ Failed</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><small>Tip: Press Ctrl/⌘ + F to quickly find a commit or author.</small></p>
+</body>
+</html>
